@@ -1,0 +1,26 @@
+// scss-lint:disable QualifyingElement
+
+//
+// Alternate buttons
+//
+
+.btn-ex-glass-dark {
+  @include button-variant(
+    rgba(10, 10, 10, .2),
+    rgba(0, 0, 0, 0),
+    rgba(10, 10, 10, .3),
+    rgba(0, 0, 0, 0),
+    rgba(10, 10, 10, .3),
+    rgba(0, 0, 0, 0)
+  );
+}
+.btn-ex-glass-light {
+  @include button-variant(
+    rgba(245, 245, 245, .2),
+    rgba(255, 255, 255, 0),
+    rgba(245, 245, 245, .1),
+    rgba(255, 255, 255, 0),
+    rgba(245, 245, 245, .1),
+    rgba(255, 255, 255, 0)
+  );
+}
